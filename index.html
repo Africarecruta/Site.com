@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="pt">
+<!DOCTYPE html>
+<html lang="pt">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,7 +89,7 @@
 </head>
 <body>
   <header>
-    <img src="imagens/arquivo_00000000db34624383334cb956115ba0.png" alt="África Recruita Logo">
+    <img src="imagens/file_00000000db34624383334cb956115ba0.png" alt="África Recruita Logo">
     <div class="lang-switcher">
       <select onchange="changeLanguage(this.value)">
         <option value="pt">Português</option>
@@ -98,34 +99,72 @@
     <h1 data-lang="pt">África Recruita</h1>
     <p data-lang="pt">Recrutamento profissional em Moçambique e África do Sul</p>
     <p data-lang="en" style="display:none;">Professional recruitment in Mozambique and South Africa</p>
-  </header>  <nav>
+  </header>
+
+  <nav>
     <a href="#sobre" onclick="showSection('sobre')">Sobre Nós</a>
     <a href="#servicos" onclick="showSection('servicos')">Serviços</a>
     <a href="#testemunhos" onclick="showSection('testemunhos')">Testemunhos</a>
     <a href="#galeria" onclick="showSection('galeria')">Imagens</a>
     <a href="#inscricao" onclick="showSection('inscricao')">Inscrição</a>
-  </nav>  <section id="sobre" class="active">
+  </nav>
+
+  <section id="sobre" class="active">
     <h2 data-lang="pt">Sobre Nós</h2>
     <h2 data-lang="en" style="display:none;">About Us</h2>
-    <p data-lang="pt">Somos a África Recruita, uma agência de recrutamento séria, atuando em Moçambique e África do Sul...</p>
-    <p data-lang="en" style="display:none;">We are África Recruita, a serious recruitment agency operating in Mozambique and South Africa...</p>
-  </section>  <section id="servicos">
+    <p data-lang="pt">
+      Somos a África Recruita, uma agência de recrutamento séria e comprometida com a integridade profissional. Atuamos fortemente nos mercados de Moçambique e África do Sul, promovendo oportunidades de trabalho em setores críticos como Saúde, Tecnologia da Informação, Logística e Hotelaria.
+      <br><br>
+      Combatemos ativamente a falsificação de documentos. Solicitamos que os candidatos enviem apenas documentos reais e verificáveis, garantindo assim maior credibilidade e melhores oportunidades de aceitação.
+    </p>
+    <p data-lang="en" style="display:none;">
+      We are África Recruita, a serious and integrity-driven recruitment agency. We operate strongly in Mozambique and South Africa, creating job opportunities in key sectors such as Healthcare, IT, Logistics, and Hospitality.
+      <br><br>
+      We actively fight document fraud. Please send only real and verifiable documents to increase your chances of acceptance.
+    </p>
+  </section>
+
+  <section id="servicos">
     <h2 data-lang="pt">Nossos Serviços</h2>
     <h2 data-lang="en" style="display:none;">Our Services</h2>
     <ul data-lang="pt">
-      <li>Recrutamento nacional e internacional</li>
-      <li>Profissionais de saúde, TI, hotelaria, logística...</li>
+      <li>Recrutamento nacional e internacional de profissionais qualificados</li>
+      <li>Consultoria em RH e gestão de talentos</li>
+      <li>Colocação de técnicos e especialistas em:
+        <ul>
+          <li>TI: Desenvolvedores, Suporte Técnico, Engenheiros de Redes</li>
+          <li>Saúde: Médicos, Enfermeiros, Técnicos de Laboratório</li>
+          <li>Hotelaria: Chefs, Recepcionistas, Gerentes de Hotel</li>
+        </ul>
+      </li>
+      <li>Uso de tecnologias como inteligência artificial para triagem de currículos</li>
+      <li>Parcerias com empresas locais e internacionais</li>
     </ul>
     <ul data-lang="en" style="display:none;">
-      <li>National and international recruitment</li>
-      <li>Healthcare, IT, hospitality, logistics professionals...</li>
+      <li>National and international recruitment of qualified professionals</li>
+      <li>HR consulting and talent management</li>
+      <li>Placement of technical specialists in:
+        <ul>
+          <li>IT: Developers, Technical Support, Network Engineers</li>
+          <li>Healthcare: Doctors, Nurses, Lab Technicians</li>
+          <li>Hospitality: Chefs, Receptionists, Hotel Managers</li>
+        </ul>
+      </li>
+      <li>AI-driven resume screening technology</li>
+      <li>Partnerships with local and global companies</li>
     </ul>
-  </section>  <section id="testemunhos">
+  </section>
+
+  <section id="testemunhos">
     <h2 data-lang="pt">Testemunhos</h2>
     <h2 data-lang="en" style="display:none;">Testimonials</h2>
-    <blockquote data-lang="pt">"Encontrei o meu emprego ideal!" – Maria C.</blockquote>
-    <blockquote data-lang="en" style="display:none;">"I found my dream job!" – Maria C.</blockquote>
-  </section>  <section id="galeria">
+    <blockquote data-lang="pt">"Encontrei o meu emprego ideal com ajuda da África Recruita!" – Maria C.</blockquote>
+    <blockquote data-lang="pt">"Graças à equipa, fui contratado como enfermeiro na África do Sul." – João M.</blockquote>
+    <blockquote data-lang="en" style="display:none;">"I found my dream job thanks to África Recruita!" – Maria C.</blockquote>
+    <blockquote data-lang="en" style="display:none;">"Thanks to the team, I was hired as a nurse in South Africa." – João M.</blockquote>
+  </section>
+
+  <section id="galeria">
     <h2 data-lang="pt">Imagens da Empresa</h2>
     <h2 data-lang="en" style="display:none;">Company Gallery</h2>
     <div class="gallery">
@@ -133,13 +172,36 @@
       <img src="imagens/img2.jpg" alt="Foto 2">
       <img src="imagens/img3.jpg" alt="Foto 3">
     </div>
-  </section>  <section id="inscricao">
+  </section>
+
+  <section id="inscricao">
     <h2 data-lang="pt">Inscrição</h2>
     <h2 data-lang="en" style="display:none;">Registration</h2>
-    <p data-lang="pt">Clique abaixo para se inscrever via WhatsApp.</p>
-    <p data-lang="en" style="display:none;">Click below to register via WhatsApp.</p>
+    <p data-lang="pt">Clique abaixo para se inscrever via WhatsApp e acessar nossas vagas disponíveis:</p>
+    <ul data-lang="pt">
+      <li>Desenvolvedor Web</li>
+      <li>Enfermeiro (com experiência)</li>
+      <li>Motorista de Pesados</li>
+      <li>Especialista em Redes</li>
+      <li>Chef de Cozinha</li>
+      <li>Empregadas domésticas</li>
+      <li>Entregador</li>
+      <li>Profissionais de limpeza </li>
+      <li> e outras áreas desde de trabalho doméstico como:</li>
+      <li>Garçonetes </li>
+    </ul>
+    <p data-lang="en" style="display:none;">Click below to register via WhatsApp and access available vacancies:</p>
+    <ul data-lang="en" style="display:none;">
+      <li>Web Developer</li>
+      <li>Experienced Nurse</li>
+      <li>Heavy Vehicle Driver</li>
+      <li>Network Specialist</li>
+      <li>Head Chef</li>
+    </ul>
     <a class="whatsapp-btn" href="https://whatsapp.com/channel/0029Vb69WCtDp2Q7ORmuus27" target="_blank">WhatsApp</a>
-  </section>  <script>
+  </section>
+
+  <script>
     function showSection(id) {
       document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
       document.getElementById(id).classList.add('active');
@@ -150,5 +212,6 @@
         el.style.display = (el.getAttribute('data-lang') === lang) ? '' : 'none';
       });
     }
-  </script></body>
-  </html>
+  </script>
+</body>
+      </html>
