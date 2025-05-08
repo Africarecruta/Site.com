@@ -85,21 +85,6 @@
       padding: 1em;
       font-style: italic;
     }
-    form input, form textarea {
-      width: 100%;
-      padding: 0.8em;
-      margin-bottom: 1em;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-    form button {
-      padding: 0.8em 1.5em;
-      background: #004d40;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
   </style>
 </head>
 <body>
@@ -112,6 +97,7 @@
       </select>
     </div>
     <h1 data-lang="pt">África Recruita</h1>
+    <h1 data-lang="en" style="display:none;">Africa Recruita</h1>
     <p data-lang="pt">Recrutamento profissional em Moçambique e África do Sul</p>
     <p data-lang="en" style="display:none;">Professional recruitment in Mozambique and South Africa</p>
   </header>
@@ -123,24 +109,27 @@
     <a href="#galeria" onclick="showSection('galeria')">Imagens</a>
     <a href="#inscricao" onclick="showSection('inscricao')">Inscrição</a>
     <a href="#clientes" onclick="showSection('clientes')">Clientes</a>
-    <a href="#faq" onclick="showSection('faq')">FAQ</a>
-    <a href="#contato" onclick="showSection('contato')">Contato</a>
   </nav>
 
   <section id="sobre" class="active">
-    <h2>Sobre Nós</h2>
-    <p>
-      Somos a África Recruita, uma agência de recrutamento séria e comprometida com a integridade profissional. Atuamos fortemente nos mercados de Moçambique e África do Sul, promovendo oportunidades de trabalho em setores críticos como Saúde, Tecnologia da Informação, Logística e Hotelaria.
+    <h2 data-lang="pt">Sobre Nós</h2>
+    <h2 data-lang="en" style="display:none;">About Us</h2>
+    <p data-lang="pt">
+      Somos a África Recruita, uma agência de recrutamento séria e comprometida com a integridade profissional. Atuamos fortemente nos mercados de Moçambique e África do Sul, promovendo oportunidades de trabalho em setores críticos como Saúde, Tecnologia da Informação, Logística e Hotelaria.<br><br>
+      Combatemos ativamente a falsificação de documentos. Solicitamos que os candidatos enviem apenas documentos reais e verificáveis, garantindo assim maior credibilidade e melhores oportunidades de aceitação.<br><br>
+      Partilhe este site com seus amigos e familiares que procuram emprego!
     </p>
-    <p><strong>Missão:</strong> Conectar talentos africanos a oportunidades transformadoras.</p>
-    <p><strong>Visão:</strong> Ser referência em recrutamento ético e eficaz no continente africano.</p>
-    <p><strong>Valores:</strong> Integridade, Compromisso, Inclusão, Inovação.</p>
-    <p><strong>Partilhe este site com quem procura emprego ou bons profissionais!</strong></p>
+    <p data-lang="en" style="display:none;">
+      We are Africa Recruita, a serious and integrity-driven recruitment agency. We operate strongly in Mozambique and South Africa, promoting job opportunities in key sectors such as Healthcare, IT, Logistics, and Hospitality.<br><br>
+      We actively fight document fraud. Candidates are required to send only real and verifiable documents to ensure better credibility and acceptance chances.<br><br>
+      Share this site with friends and family looking for job opportunities!
+    </p>
   </section>
 
   <section id="servicos">
-    <h2>Serviços</h2>
-    <ul>
+    <h2 data-lang="pt">Nossos Serviços</h2>
+    <h2 data-lang="en" style="display:none;">Our Services</h2>
+    <ul data-lang="pt">
       <li>Recrutamento nacional e internacional de profissionais qualificados</li>
       <li>Consultoria em RH e gestão de talentos</li>
       <li>Colocação de técnicos e especialistas em:
@@ -148,25 +137,47 @@
           <li>TI: Desenvolvedores, Suporte Técnico, Engenheiros de Redes</li>
           <li>Saúde: Médicos, Enfermeiros, Técnicos de Laboratório</li>
           <li>Hotelaria: Chefs, Recepcionistas, Gerentes de Hotel</li>
-          <li>Doméstico: Empregadas, Motoristas, Jardineiros</li>
         </ul>
       </li>
       <li>Uso de tecnologias como inteligência artificial para triagem de currículos</li>
       <li>Parcerias com empresas locais e internacionais</li>
+      <li>Empregadas domésticas, Motoristas, Faxineiros, Garçonetes</li>
+    </ul>
+    <ul data-lang="en" style="display:none;">
+      <li>National and international recruitment of qualified professionals</li>
+      <li>HR consulting and talent management</li>
+      <li>Placement of specialists in:
+        <ul>
+          <li>IT: Developers, Technical Support, Network Engineers</li>
+          <li>Healthcare: Doctors, Nurses, Lab Technicians</li>
+          <li>Hospitality: Chefs, Receptionists, Hotel Managers</li>
+        </ul>
+      </li>
+      <li>AI-powered resume screening</li>
+      <li>Partnerships with local and global companies</li>
+      <li>Domestic workers, Drivers, Cleaners, Waitresses</li>
     </ul>
   </section>
 
   <section id="testemunhos">
-    <h2>Testemunhos</h2>
-    <blockquote>"Encontrei o meu emprego ideal com ajuda da África Recruita!" – Maria C.</blockquote>
-    <blockquote>"Graças à equipa, fui contratado como enfermeiro na África do Sul." – João M.</blockquote>
-    <blockquote>"Consegui um cargo como programador sênior com apoio total da agência." – Carlos T.</blockquote>
-    <blockquote>"A África Recruita foi essencial na minha recolocação profissional." – Juliana L.</blockquote>
-    <blockquote>"Muito profissionais e atenciosos. Recomendo!" – Ernesto F.</blockquote>
+    <h2 data-lang="pt">Testemunhos</h2>
+    <h2 data-lang="en" style="display:none;">Testimonials</h2>
+    <blockquote data-lang="pt">"Encontrei o meu emprego ideal com ajuda da África Recruita!" – Maria C.</blockquote>
+    <blockquote data-lang="pt">"Graças à equipa, fui contratado como enfermeiro na África do Sul." – João M.</blockquote>
+    <blockquote data-lang="pt">"Serviço rápido e confiável. Recomendo!" – Carla L.</blockquote>
+    <blockquote data-lang="pt">"Fui contratado como motorista em Maputo!" – Alberto D.</blockquote>
+    <blockquote data-lang="pt">"Excelente atendimento e acompanhamento." – Sofia A.</blockquote>
+
+    <blockquote data-lang="en" style="display:none;">"I found my dream job thanks to Africa Recruita!" – Maria C.</blockquote>
+    <blockquote data-lang="en" style="display:none;">"Thanks to the team, I was hired as a nurse in South Africa." – João M.</blockquote>
+    <blockquote data-lang="en" style="display:none;">"Fast and reliable service. I recommend!" – Carla L.</blockquote>
+    <blockquote data-lang="en" style="display:none;">"I got hired as a driver in Maputo!" – Alberto D.</blockquote>
+    <blockquote data-lang="en" style="display:none;">"Great service and support!" – Sofia A.</blockquote>
   </section>
 
   <section id="galeria">
-    <h2>Imagens da Empresa</h2>
+    <h2 data-lang="pt">Imagens da Empresa</h2>
+    <h2 data-lang="en" style="display:none;">Company Gallery</h2>
     <div class="gallery">
       <img src="imagens/img1.jpg" alt="Foto 1">
       <img src="imagens/img2.jpg" alt="Foto 2">
@@ -175,9 +186,10 @@
   </section>
 
   <section id="inscricao">
-    <h2>Inscrição</h2>
-    <p>Clique abaixo para se inscrever via WhatsApp e acessar nossas vagas disponíveis:</p>
-    <ul>
+    <h2 data-lang="pt">Inscrição</h2>
+    <h2 data-lang="en" style="display:none;">Registration</h2>
+    <p data-lang="pt">Clique abaixo para se inscrever via WhatsApp e acessar nossas vagas disponíveis:</p>
+    <ul data-lang="pt">
       <li>Desenvolvedor Web</li>
       <li>Enfermeiro (com experiência)</li>
       <li>Motorista de Pesados</li>
@@ -187,39 +199,29 @@
       <li>Entregador</li>
       <li>Profissionais de limpeza</li>
       <li>Garçonetes</li>
-      <li>Auxiliares Administrativos</li>
-      <li>Operadores de Call Center</li>
-      <li>Babás / Cuidadoras</li>
+    </ul>
+
+    <p data-lang="en" style="display:none;">Click below to register via WhatsApp and view our available job offers:</p>
+    <ul data-lang="en" style="display:none;">
+      <li>Web Developer</li>
+      <li>Experienced Nurse</li>
+      <li>Heavy Vehicle Driver</li>
+      <li>Network Specialist</li>
+      <li>Head Chef</li>
+      <li>Housekeepers</li>
+      <li>Delivery Personnel</li>
+      <li>Cleaning Professionals</li>
+      <li>Waitresses</li>
     </ul>
     <a class="whatsapp-btn" href="https://whatsapp.com/channel/0029Vb69WCtDp2Q7ORmuus27" target="_blank">WhatsApp</a>
   </section>
 
   <section id="clientes">
-    <h2>Área para Clientes</h2>
-    <p>Seja bem-vindo, nosso cliente! Estamos prontos para ajudar a encontrar os melhores profissionais para a sua empresa. Fornecemos talentos verificados em várias áreas e garantimos processos ágeis e transparentes.</p>
-    <p><strong>Atenção:</strong> Esta área é exclusiva para empresas e contratantes. Clique abaixo para entrar em contato:</p>
-    <a class="whatsapp-btn" href="https://whatsapp.com/channel/0029VbAeRntG3R3eYbwOg30b" target="_blank">WhatsApp - Apenas Clientes</a>
-  </section>
-
-  <section id="faq">
-    <h2>Perguntas Frequentes (FAQ)</h2>
-    <ul>
-      <li><strong>Como me inscrevo?</strong> Basta clicar na aba "Inscrição" e seguir o link para WhatsApp.</li>
-      <li><strong>Quais documentos são exigidos?</strong> Documentos reais e verificáveis (BI, Certificados, etc).</li>
-      <li><strong>Tenho custos como candidato?</strong> Não. A inscrição é gratuita.</li>
-      <li><strong>Sou empresa, como contrato?</strong> Use o link na aba "Clientes".</li>
-    </ul>
-  </section>
-
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Envie-nos uma mensagem:</p>
-    <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
-      <input type="text" name="nome" placeholder="Seu nome" required>
-      <input type="email" name="email" placeholder="Seu email" required>
-      <textarea name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
+    <h2 data-lang="pt">Área para Clientes</h2>
+    <h2 data-lang="en" style="display:none;">Client Area</h2>
+    <p data-lang="pt">Seja bem-vindo, nosso cliente! Se você procura profissionais qualificados, está no lugar certo. Nossa equipa irá auxiliá-lo no processo de seleção de candidatos para diversas áreas.<br><br>Atenção: este canal é exclusivo para clientes. Clique abaixo para entrar em contato.</p>
+    <p data-lang="en" style="display:none;">Welcome, dear client! If you are looking for qualified professionals, you are in the right place. Our team will help you with the recruitment and selection process across various industries.<br><br>Note: this channel is for clients only. Click below to get in touch.</p>
+    <a class="whatsapp-btn" href="https://whatsapp.com/channel/0029VbAeRntG3R3eYbwOg30b" target="_blank">WhatsApp – Clientes</a>
   </section>
 
   <script>
